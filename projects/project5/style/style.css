@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 20vw;
+    height: 1vh;
+    background-color: #FDBD03;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer {
+    width: 52vw;
+    height: 1vh;
+    background-color: #FDBD03;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.pele img {
+    position: absolute;
+    max-width: 40vw;
+    object-fit: cover;
+    height: 60vh;
+    top: 100px;
+    right: 20px;
+}
+
+.whatsapp {
+    background-color: #FDBD03;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    left: 0;
+    bottom: 20px;
+    position: absolute;
+}
+
+.logos {
+    background-color: #FDBD03;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    color: #FDBD03;
+    font-size: 4.125em;
+    text-align: right;
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.25em;
+    color: #020253;
+    text-align: right;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    height: 30vh;
+    margin-right: 280px;
+    margin-top: 100px;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    text-align: right;
+}
+
+.fullName,
+.email {
+    float: right;
+    padding: 6px;
+
+}
+
+
+label {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 0;
+    border-bottom: 3px solid #FDBD03;
+    width: 21vw;
+    height: 5vh;
+    background-color: #E5EEFF;
+    text-align: right;
+    margin-bottom: 20px;
+
+}
+
+textarea {
+    width: 42.7vw;
+    height: 143px;
+    resize: none;
+    border: 0;
+    border-bottom: 3px solid #FDBD03;
+    background-color: #E5EEFF;
+    text-align: right;
+
+}
+
+input[type="submit"] {
+    width: 8.3vw;
+    height: 50px;
+    background-color: #FDBD03;
+    opacity: 1;
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    border: 0;
+
+}
+
+@media screen and (max-width:1500px) {
+    .pele img {
+        width: 20vw;
+        height: 50vh;
+        object-fit: fill;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .pele img {
+        width: 15vw;
+        height: 14vh;
+        object-fit: fill;
+        position: relative;
+        margin: 100px;
+        margin-top: 20px;
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    .fullName,
+    .email {
+        float: none;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    label {
+        font-size: 0.625em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"] {
+        width: 80vw;
+        height: 5vh;
+        margin-bottom: 10px;
+        font-size: 15px;
+
+    }
+
+    textarea {
+        width: 80vw;
+        height: 15vh;
+    }
+
+    header {
+        width: 90vw;
+        height: 1vh;
+        background-color: #FDBD03;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    footer {
+        width: 100vw;
+        height: 1vh;
+    }
+
+    .main {
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+
+    .logos {
+
+        width: 47px;
+        height: 47px;
+    }
+
+    img[src$="logo.png"] {
+        width: 50%;
+        height: 50%;
+    }
+
+    .contact {
+        width: 100vw;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .head {
+        width: 70%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .pele img {
+        margin: 10px;
+        top: 0;
+    }
+
+    .logos {
+
+        width: 25px;
+        height: 25px;
+    }
+
+    img[src$="logo.png"] {
+        width: 40%;
+        height: 40%;
+    }
+}

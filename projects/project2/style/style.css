@@ -1,0 +1,129 @@
+ @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .container {
+     display: flex;
+     margin: auto;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     gap: 20px;
+ }
+
+ h1 {
+     font-size: 3.75em;
+     text-align: center;
+     font-family: 'Satisfy', cursive;
+     color: #FFFFFF;
+     text-shadow: 0px 0px 36px #00000087;
+     opacity: 1;
+ }
+
+ h2 {
+     font-size: 1.125em;
+     font-family: 'Varela Round', sans-serif;
+     color: #FFFFFF;
+     text-align: center;
+     width: 80%;
+
+ }
+
+ p {
+     font-size: 1em;
+     text-align: center;
+     font-family: 'Varela Round', sans-serif;
+     color: #F9F9F9;
+     width: 80%;
+ }
+
+ .fullName,
+ .email {
+     display: block;
+     text-align: right;
+     margin-bottom: 10px;
+ }
+
+ label[for="full-name"] {
+     font-size: 0.688em;
+     align-items: right;
+     font-family: 'Varela Round', sans-serif;
+     color: #F9F9F9;
+ }
+
+ label[for="email"] {
+     font-size: 0.625em;
+     text-align: right;
+     font-family: 'Varela Round', sans-serif;
+     color: #F9F9F9;
+ }
+
+ input[type="text"],
+ input[type="email"] {
+     width: 250px;
+     height: 36px;
+     border: 2px solid #FFFFFF;
+     opacity: 1;
+     background-color: #F6F6F624;
+
+ }
+
+ input[type=submit] {
+     width: 250px;
+     height: 33px;
+     background-color: #FFFFFF;
+     text-align: center;
+     font: 'Varela Round', sans-serif;
+     color: #1C1C1C;
+ }
+
+ @media screen and (min-width: 1200px) {
+     .container {
+         display: flex;
+         flex-direction: column;
+         width: 50vw;
+     }
+
+     form {
+         display: flex;
+         flex-direction: row-reverse;
+         gap: 10px;
+     }
+
+     h1 {
+         font-size: 10em;
+     }
+
+     h2 {
+         font-size: 2em;
+     }
+
+     p,
+     label {
+         font-size: 1em;
+     }
+
+     input[type="text"],
+     input[type="email"] {
+         width: 418px;
+         height: 50px;
+     }
+
+     input[type="submit"] {
+         width: 206px;
+         height: 50px;
+         align-self: center;
+         margin-top: 5px;
+     }
+ }

@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/page3.png);
+    background-size: 100vw 90vh;
+    opacity: 1;
+    width: 100vw;
+    height: 90vh;
+
+
+}
+
+h1 {
+    font-size: 5.375em;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #D3E10E;
+    text-align: center;
+    margin: auto;
+
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+
+
+}
+
+label {
+    font-size: 1rem;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #011560;
+    opacity: 1;
+    text-align: inherit;
+    float: right;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 0;
+    border-bottom: 3px solid #D3E10E;
+    width: 418px;
+    height: 50px;
+    background-color: #F6F6F6;
+}
+
+input[type="submit"] {
+    width: 166px;
+    height: 50px;
+    margin-top: 20px;
+    border: 0;
+    background-color: #D3E10E;
+    color: #011560;
+    font-size: 22px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+}
+
+
+@media (max-width: 1200px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        background-image: url(../images/page3.png);
+        background-size: 100vw 300px;
+        opacity: 1;
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 75vw;
+    }
+
+    p {
+        font-size: 12px;
+        width: 60vw;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        gap: 20px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        border: 0;
+        border-bottom: 3px solid #D3E10E;
+        outline: 0;
+        width: 80vw;
+        height: 34px;
+        background-color: #E5EEFF;
+
+    }
+
+    input[type="submit"] {
+        width: 80vw;
+        height: 34px;
+        font-size: 14px;
+
+    }
+}
