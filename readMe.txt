@@ -13,6 +13,11 @@ styles-pre.css: The CSS file containing styles for the preview of the landing pa
 #Getting Started: 
 Open the index.html file in your preferred web browser.
 
+#GitHub:
+https://github.com/NiveenBader/NeveenBaderProject.git
+
+#GoogleDrive:
+https://drive.google.com/file/d/1I1ZuW01yJKoXC9-hhFXaIVBSCHABEu9-/view?usp=drive_link
 
 
 
