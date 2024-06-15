@@ -684,3 +684,9 @@ footer {
     }
 
 }
+
+@media screen and (max-width:350px) {
+    .social-contact-box {
+        width: 100vw;
+    }
+}
