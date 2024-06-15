@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI - All Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Pokémon</h1>
+        <div class="filter-container">
+
+            <label for="type-select">Select Type:</label>
+            <select id="type-select">
+                <option value="">All</option>
+            </select>
+
+        </div>
+        <div id="pokemon-cards" class="pokemon-container" onclick="toggleEnlarge(this)">
+
+            <!-- Pokémon cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+
+</body>
+
+</html>

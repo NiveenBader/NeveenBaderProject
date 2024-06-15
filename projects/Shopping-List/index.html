@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Shopping List</title>
+</head>
+
+<body onload="initialData()">
+    <h1><i class="fa-solid fa-clipboard-check"></i> Shopping List</h1>
+
+    <div class="frame">
+        <ul class="tasks"></ul>
+        <input type="text" id="new-item" placeholder="Add new item">
+        <select id="category-select">
+            <option value="Groceries">Groceries</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Household">Household</option>
+        </select>
+        <button onclick="addNewItem()">Add Item</button>
+    </div>
+</body>
+
+</html>
