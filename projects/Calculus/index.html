@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js" defer></script>
+    <title>calculus</title>
+</head>
+
+<body onload="restoreTests()">
+    <h1> לומדת חשבון</h1>
+    <div id="board">
+        <div class="container">
+            <div class="choose">
+                <label for="numbers">בחר טווח מספרים :</label>
+                <select name="numbers" id="nums">
+                    <option aria-valuemin="1" aria-valuemax="10">1-10</option>
+                    <option aria-valuemin="1" aria-valuemax="100">1-100</option>
+                    <option aria-valuemin="1" aria-valuemax="1000">1-1000</option>
+                    <option aria-valuemin="1" aria-valuemax="10000">1-10000</option>
+                </select>
+            </div>
+            <div class="choose">
+                <label for="operator">בחר אופרטור :</label>
+                <select name="operator" id="oper">
+                    <option value="+">חיבור +</option>
+                    <option value="-">חיסור -</option>
+                    <option value="*">כפל * </option>
+                    <option value="/">חילוק /</option>
+                </select>
+            </div>
+
+            <div class="task">
+                <button onclick="calculate()">שאלה הבאה</button>
+                <div>
+                    <span id="test"></span>
+                    <div class="center">
+                        <div class="check blink">
+                            <i class="far fa-check-circle color"></i> &nbsp; &nbsp;
+                            <span>תשובה נכונה !</span>
+                        </div>
+                        <div class="danger blink">
+                            <i class="far fa-times-circle shine"></i>
+                            &nbsp; &nbsp;
+                            <span>שגיאה</span>
+                        </div>
+                    </div>
+                    <input type="number" id="answer" value="" placeholder="תשובה" required>
+                    <button onclick="checkRes()">בדוק את התשובה</button>
+
+                    <button onclick="resetPoint()">איפוס ניקוד</button><br>
+                    <div id="points"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="boardTwo">
+        <div id="res">
+            <button onclick="clearPage()">נקה דף</button>
+            <h2> Previous Questions</h2>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
