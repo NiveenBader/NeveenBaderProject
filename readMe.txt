@@ -1,28 +1,22 @@
-#Project Name: Portfolio
+Neveen Bader Portfolio Website
+Overview
+Welcome to my personal portfolio website, showcasing various landing pages I developed. This project demonstrates skills acquired in a web development course, featuring six distinct landing pages utilizing HTML, CSS, Bootstrap, SASS, JavaScript, APIs, and object-oriented programming principles.
 
+About
+My name is Neveen Bader, a professional with a B.Ed in Physical Education and Sport and an M.B.A in Business Management and Strategic Business. Currently, I work in organic-ecological agriculture and manage databases for the non-profit organization Revivim Israel.
 
-#Description:
-This project contains six landing pages built with HTML, CSS and Bootstrap.
+Selected Works
+The website highlights my coding projects, including landing pages designed to showcase registration forms, background images positioning with Flexbox, and creative solutions for everyday work efficiency.
 
-Project Structure: 
-index.html: The main HTML file containing the structure of the website landing page.
-styles.css: The CSS file containing styles for the website landing page.
-pre.html: The main file containing the structure of the preview of the landing page.
-styles-pre.css: The CSS file containing styles for the preview of the landing page.
+Contact
+Feel free to reach out via my contact page if you're interested in my work or have any inquiries. Contact details and a form for direct messaging are available on the site.
+
+Link to the Website
+
+https://niveenbader.github.io/NeveenBaderProject/
 
 #Getting Started: 
 Open the index.html file in your preferred web browser.
 
-#GitHub:
-https://github.com/NiveenBader/NeveenBaderProject.git
-
-#GoogleDrive:
-https://drive.google.com/drive/folders/1GIHNYm7k7iEyP3y3U6R8u3gDgH-KOQ2q?usp=drive_link
-
-GitHub:
-https://github.com/NiveenBader/NeveenBaderProject.git
-
-#GoogleDrive:
-https://drive.google.com/drive/folders/1GIHNYm7k7iEyP3y3U6R8u3gDgH-KOQ2q?usp=drive_link
 
 
