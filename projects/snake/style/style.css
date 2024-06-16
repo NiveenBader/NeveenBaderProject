@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700;900&display=swap');
+
+html {
+    min-height: 100%;
+}
+
+body {
+    direction: rtl;
+    background-color: #383838;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+* {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 16px;
+}
+
+#board {
+
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-grid;
+    color: white;
+    border: 4px solid black;
+    background-color: #ddd6fe;
+}
+
+#board>div {
+    height: 10px;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snake {
+    background-color: chartreuse;
+    display: inline-block;
+    border-radius: 40%;
+
+}
+
+.apple::after {
+    content: "🍎";
+    font-size: 11px;
+}
+
+.colorHead {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+#point {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+#arrows {
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: transparent;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+
+
+
+
+}
+
+#arrows>div {
+    height: 80px;
+    width: 80px;
+
+}
+
+.up {
+    background-image: url(./images/up.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.down {
+    background-image: url(./images/down.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pause {
+    background-image: url(./images/pause.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right {
+    background-image: url(./images/right.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left {
+    background-image: url(./images/left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button {
+    margin-bottom: 30px;
+}
+
+button {
+    color: red;
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #arrows {
+        display: inline-grid;
+    }
+}
